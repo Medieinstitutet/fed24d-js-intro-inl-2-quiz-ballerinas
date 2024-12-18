@@ -17,3 +17,15 @@ Summering:
 Oskar: Taggad på att börja koda!
 
 David: Kul att va scrum-master- nu kör vi!
+
+Karin: Vi gjorde ett bra jobb igår och är pepp på att snart få koduppdrag!
+
+Catrin: Samma för mig: bra jobb igår och kul att komma igång 
+
+Carl: - 
+
+Agnes: Idag flyttar jag! AFK.
+
+
+ 
+ 
