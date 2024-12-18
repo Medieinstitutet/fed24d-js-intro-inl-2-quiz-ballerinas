@@ -1,0 +1,7 @@
+@import 'vendor/normalize.scss';
+@import 'helpers';
+@import 'base';
+
+@media screen and (min-width: 1280px) {
+  @import 'desktop';
+}
