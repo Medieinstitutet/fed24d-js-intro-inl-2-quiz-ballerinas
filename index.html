@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="sv">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,9 +8,12 @@
     <meta name="robots" content="index, follow">
 
     <meta property="og:title" content="">
-    <meta property="og:description" content="Description of secial media">
+    <meta property="og:description" content="Description of social media">
     <meta property="og:image" content="">
     <meta property="og:url" content="https://ballerinaquiz.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -32,31 +35,31 @@
   <body>
     <main>
       <header>
-        <div id="pointCountContainer"> Point Count</div>
-        <div id="timeCountContainer">Time Count</div>
+        <div id="pointCountContainer">Poängräknare</div>
+        <div id="timeCountContainer">Tidsräknare</div>
       </header>
       <div id="startPage">
         <h1>Ballerinas quiz</h1>
-        <button id="startBtn">Start quiz</button>
+        <button id="startBtn">Starta quiz</button>
       </div>
       
       <div id="quizPage" class="hidden">
         <div id="questionContainer">
           <!-- Add Questions from Typescript -->
         </div>
-        <button id="nextQuestionBtn">Next question</button>
-        <button id="finishQuizBtn" class="hidden">Finsih quiz</button>
+        <button id="nextQuestionBtn">Nästa fråga</button>
+        <button id="finishQuizBtn" class="hidden">Avsluta quiz</button>
       </div>
 
       <div id="endPage">
-        <p>Results:</p>
+        <p>Resultat:</p>
         <div id="resultContainer"></div>
-        <button id="playAgainBtn">Play Again</button>
+        <button id="playAgainBtn">Spela igen</button>
       </div>
 
       <footer>
         <div id="currentQuestion">
-          Current Question
+          Aktuell fråga
         </div>
       </footer>
     </main>
