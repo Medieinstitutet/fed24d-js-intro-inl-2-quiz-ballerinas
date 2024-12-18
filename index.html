@@ -2,21 +2,64 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Ballerinas Quiz</title>
+    <meta name="description" content="">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="">
+    <meta property="og:description" content="Description of secial media">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="https://ballerinaquiz.com">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Game",
+        "name": "Ballerina's Quiz",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "",
+          "addressLocality": "",
+          "postalCode": "",
+          "addressCountry": "SE"
+        },
+        "telephone": "",
+        "url": "https://ballerinaquiz.com",
+        "servesCuisine": "Quiz",
+      }
+      </script>
   </head>
   <body>
-    <div>hej</div>
-    <p>Hej från Agnes!</p>
-    <h3>Hej från Catrin</h3>
-    <h3>Hej från Oskar</h3>
-    <h3>Hej från Carl.</h3>
-    <button>button</button>
-    <h3>Hej från Karin! Testar att uppdatera</h3>
+    <main>
+      <header>
+        <div id="pointCountContainer"> Point Count</div>
+        <div id="timeCountContainer">Time Count</div>
+      </header>
+      <div id="startPage">
+        <h1>Ballerinas quiz</h1>
+        <button id="startBtn">Start quiz</button>
+      </div>
+      
+      <div id="quizPage" class="hidden">
+        <div id="questionContainer">
+          <!-- Add Questions from Typescript -->
+        </div>
+        <button id="nextQuestionBtn">Next question</button>
+        <button id="finishQuizBtn" class="hidden">Finsih quiz</button>
+      </div>
 
-    <button>Agnes knapp</button>
-    <div id="app"></div>
+      <div id="endPage">
+        <p>Results:</p>
+        <div id="resultContainer"></div>
+        <button id="playAgainBtn">Play Again</button>
+      </div>
+
+      <footer>
+        <div id="currentQuestion">
+          Current Question
+        </div>
+      </footer>
+    </main>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
