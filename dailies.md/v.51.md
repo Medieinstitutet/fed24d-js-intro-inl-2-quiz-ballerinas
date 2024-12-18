@@ -1,16 +1,19 @@
+
+## Questions
+
 ### What did I work on yesterday?
 
 ### What am I working on today?
 
 ### What issues are blocking me?
 
-## 18/12
 
-Start 09:15
+---
 
-Avslutade 09:30
+# 18/12
 
-Alla var närvarande
+**Start 09:15 - Avslutade 09:30**
+
 
 Summering:
 
@@ -25,6 +28,12 @@ Catrin: Samma för mig: bra jobb igår och kul att komma igång
 Carl: - 
 
 Agnes: Idag flyttar jag! AFK.
+
+---
+
+# 19/12
+
+**Start 09:15**
 
 
  
