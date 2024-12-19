@@ -1,0 +1,16 @@
+// --- BASE ---
+
+main {
+  font-family: $main-font;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    .hidden {
+        display: none;
+    }
+    h1 {
+        color: $text-color;
+    }
+}
+  
