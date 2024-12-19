@@ -16,11 +16,15 @@ export function getRandomQuestions(questionsArray: Question[]): Question[] {
       question.played = false;
     });
   }
-  const availableQuestions = questionsArray.filter(question => !question.played); // Takes all question that are not played = true
-  const shuffledQuestions = availableQuestions.sort(() => Math.random() - 0.5); // Shuffles the questions so they are random
-  const selectedQuestions = shuffledQuestions.slice(0, 10); // Takes 10 questions from the shuffled array
+  // Takes all question that are not played = true
+  const availableQuestions = questionsArray.filter(question => !question.played); 
+  // Shuffles the questions so they are random
+  const shuffledQuestions = availableQuestions.sort(() => Math.random() - 0.5); 
+  // Takes 10 questions from the shuffled array
+  const selectedQuestions = shuffledQuestions.slice(0, 10); 
     selectedQuestions.forEach((question) => { 
-        question.played = true; // Marks the selected questions as played = true
+      // Marks the selected questions as played = true
+        question.played = true; 
     });
     
     return selectedQuestions;
