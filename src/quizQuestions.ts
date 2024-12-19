@@ -5,6 +5,7 @@ interface IQuizQuestions {
     answerOptionB: string;
     answerOptionC: string;
     correctAnswer: string;
+    isPlayed: boolean;
 }
 
 const questions: IQuizQuestions[] = [
@@ -15,6 +16,7 @@ const questions: IQuizQuestions[] = [
         answerOptionB: '1973',
         answerOptionC: '1983',
         correctAnswer: '1973',
+        isPlayed: false,
     },
 
     {
@@ -24,6 +26,7 @@ const questions: IQuizQuestions[] = [
         answerOptionB: 'Ballerina',
         answerOptionC: 'Ballerina',
         correctAnswer: 'Singoalla',
+        isPlayed: false,
     },
     
     {
@@ -33,6 +36,7 @@ const questions: IQuizQuestions[] = [
         answerOptionB: 'Göteborgs Kex',
         answerOptionC: 'Cloetta',
         correctAnswer: 'Göteborgs Kex',
+        isPlayed: false,
     },
 
     {
@@ -42,6 +46,7 @@ const questions: IQuizQuestions[] = [
         answerOptionB: 'Hallon & Lakrits',
         answerOptionC: 'Choklad & Hasselnöt',
         correctAnswer: 'Choklad & Hasselnöt',
+        isPlayed: false,
     },
 
     {
@@ -51,6 +56,7 @@ const questions: IQuizQuestions[] = [
         answerOptionB: 'Det har ett hål i mitten',
         answerOptionC: 'Det är trekantigt',
         correctAnswer: 'Det har ett hål i mitten',
+        isPlayed: false,
     },
 
     {
@@ -60,6 +66,7 @@ const questions: IQuizQuestions[] = [
         answerOptionB: '18',
         answerOptionC: '24',
         correctAnswer: '18',
+        isPlayed: false,
     },
 
     {
@@ -69,6 +76,7 @@ const questions: IQuizQuestions[] = [
         answerOptionB: 'Oreo',
         answerOptionC: 'Jaffa',
         correctAnswer: 'Oreo',
+        isPlayed: false,
     },
 
     {
@@ -77,7 +85,8 @@ const questions: IQuizQuestions[] = [
         answerOptionA: 'För den lilla stunden av njutning',
         answerOptionB: 'Lika god som den ser ut',
         answerOptionC: 'Perfekt för alla tillfällen',
-        correctAnswer: 'Oreo',
+        correctAnswer: 'För den lilla stunden av njutning',
+        isPlayed: false,
     },
 
     {
@@ -87,6 +96,7 @@ const questions: IQuizQuestions[] = [
         answerOptionB: 'Salt Vanilj',
         answerOptionC: 'Salt Vanilj',
         correctAnswer: 'Salt Vanilj',
+        isPlayed: false,
     },
 
     {
@@ -96,6 +106,7 @@ const questions: IQuizQuestions[] = [
         answerOptionB: 'Elegans och lätthet',
         answerOptionC: 'Inget, det är ett släkt namn',
         correctAnswer: 'Elegans och lätthet',
+        isPlayed: false,
     },
 
 
